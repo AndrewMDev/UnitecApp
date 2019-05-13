@@ -4,8 +4,12 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8" />
-		<title>Blog de Videojuegos</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Blog Uningeniero</title>
 		<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+		<link rel="icon" href="./assets/img/unitec.jpg">
+		
 	</head>
 	<body>
 		<!-- CABECERA -->
@@ -13,7 +17,7 @@
 			<!-- LOGO -->
 			<div id="logo">
 				<a href="index.php">
-					Blog de Videojuegos
+					Blog Uningeniero
 				</a>
 			</div>
 			
@@ -35,12 +39,8 @@
 							endwhile;
 						endif;
 					?>
-					<li>
-						<a href="index.php">Sobre mí</a>
-					</li>
-					<li>
-						<a href="index.php">Contacto</a>
-					</li>
+					
+					
 				</ul>
 			</nav>
 			
