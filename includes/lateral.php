@@ -39,13 +39,13 @@
 			<input type="password" name="password" />
 
 			<input type="submit" value="Entrar" />
-			<a href="#registro">Registro</a>
+			<a href="#reg">Registro</a>
 			
 		</form>
 		
 	</div>
 
-	<div id="register" class="bloque">
+	<div id="regr" class="bloque">
 		
 		<h3><a name="registro">Registro</a></h3>
 		
