@@ -45,7 +45,7 @@
 		
 	</div>
 
-	<div id="regr" class="bloque">
+	<div id="reg" class="bloque">
 		
 		<h3><a name="registro">Registro</a></h3>
 		
