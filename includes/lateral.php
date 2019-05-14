@@ -23,7 +23,7 @@
 	
 	<?php if(!isset($_SESSION['usuario'])): ?>
 	<div id="login" class="bloque">
-		<h3>Identificate</h3>
+		<h3>Iniciar Sesión</h3>
 		
 		<?php if(isset($_SESSION['error_login'])): ?>
 			<div class="alerta alerta-error">
@@ -39,11 +39,15 @@
 			<input type="password" name="password" />
 
 			<input type="submit" value="Entrar" />
+			<a href="#Registro">Registro</a>
+			
 		</form>
+		
 	</div>
 
 	<div id="register" class="bloque">
-		<h3>Resgistrate</h3>
+		
+		<h3><a name="Registro">Registro</a></h3>
 		
 		<!-- Mostrar errores -->
 		<?php if(isset($_SESSION['completado'])): ?>
@@ -65,7 +69,7 @@
 			<input type="text" name="apellidos" />
 			<?php echo isset($_SESSION['errores']) ? mostrarError($_SESSION['errores'], 'apellidos') : ''; ?>
 
-			<label for="email">Email</label>
+			<label for="email">Email(Solo Institucional)</label>
 			<input type="email" name="email" />
 			<?php echo isset($_SESSION['errores']) ? mostrarError($_SESSION['errores'], 'email') : ''; ?>
 

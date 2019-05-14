@@ -8,17 +8,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Blog Uningeniero</title>
 		<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-		<link rel="icon" href="./assets/img/unitec.jpg">
+		<link rel="icon" href="./assets/img/logo.jpg">
 		
 	</head>
 	<body>
 		<!-- CABECERA -->
 		<header id="cabecera">
 			<!-- LOGO -->
-			<div id="logo">
-				<a href="index.php">
-					Blog Uningeniero
-				</a>
+			<div class="header-logo">
+						<a class="logo" href="index.php">
+							<img src="./assets/img/logo.jpg" alt="">
+						</a>
 			</div>
 			
 			<!-- MENU -->
