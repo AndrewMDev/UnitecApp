@@ -39,7 +39,7 @@
 			<input type="password" name="password" />
 
 			<input type="submit" value="Entrar" />
-			<a href="#Registro">Registro</a>
+			<a href="#SignUp">Registro</a>
 			
 		</form>
 		
@@ -47,7 +47,7 @@
 
 	<div id="register" class="bloque">
 		
-		<h3><a name="Registro">Registro</a></h3>
+		<h3><a name="SignUp">Registro</a></h3>
 		
 		<!-- Mostrar errores -->
 		<?php if(isset($_SESSION['completado'])): ?>
